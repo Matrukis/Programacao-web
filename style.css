@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    background-color: aqua;
+    min-height: 91vh;
+    min-width: 100vw    ;
+}
+
+
+div.itens{
+    color: aqua;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: rgb(83, 10, 83);
+    display: flex;
+    flex-wrap: nowrap;  
+    min-width: 100vw;   
+    position: fixed;
+    color: white;
+}
+
+body {
+    margin: 0px;
+}
+
+#rodape {
+    background-color: rgb(83, 10, 83);
+    color: white;
+    min-width: 100vw;
+    position: fixed;
+    bottom: 1%;
+    max-width: 50px;
+    display: flex;
+    justify-content: end;
+}
+
+#jotaro {
+    max-width: 100px;
+}
+
+#sobremim {
+    margin-left: auto;
+    color: white;
+}
+
+#sobremim :hover {
+}
+
+#feitopormbm {
+
+}
