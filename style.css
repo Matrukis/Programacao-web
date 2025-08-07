@@ -1,17 +1,21 @@
 .container {
     display: flex;
-    background-color: aqua;
+    background-image: url(https://usagif.com/wp-content/uploads/gif/outerspace-58.gif);
     min-height: 91vh;
-    min-width: 100vw    ;
+    min-width: 100vw;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 
 div.itens{
-    color: aqua;
+    color: white;
     font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
 }
 header {
-    background-color: rgb(83, 10, 83);
+    background-color: rgb(39, 7, 39);
     display: flex;
     flex-wrap: nowrap;  
     min-width: 100vw;   
@@ -24,14 +28,13 @@ body {
 }
 
 #rodape {
-    background-color: rgb(83, 10, 83);
+    background-color: rgb(39, 7, 39);
     color: white;
-    min-width: 100vw;
+    width: 100vw;
     position: fixed;
-    bottom: 1%;
-    max-width: 50px;
+    bottom: 0;
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 
 #jotaro {
@@ -47,5 +50,9 @@ body {
 }
 
 #feitopormbm {
+    margin-left: auto;
+}
 
+img {
+    max-width: 100px;
 }
