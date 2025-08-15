@@ -1,24 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Atividade</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+<html>
+
+<head>
+    <title>Titulo da minha página</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
     <header>
-      <h1 id="sobremim" onclick="window.location.href='sobremim.html'" style="cursor: pointer;" >Sobre mim</h1>
-      <img
-        src="https://static.wikia.nocookie.net/jjba/images/a/a3/Profile_Jotaro_Part_4.png/revision/latest?cb=20200702214922&path-prefix=pt-br"
-        alt="" id="jotaro"
-      />
+        <h1>Bem vindo ao quiz sobre a banda Nirvana!</h1>
+        <p>Teste seus conhecimentos sobre a banda grunge mais iconica de todas!</p>
     </header>
-    <div class="container">
-      <div class="itens"><h1>Olá, usuário! Seja bem-vindo à minha página. Sinta-se à vontade para explorar todas as peculiaridades e esquisitices que temos por aqui</h1></div>
-    </div>
-    <footer id="rodape">
-      <h1 id="feitopormbm">Feito por Matheus Barcelos Mendes</h1>
+    <main>
+        <!--Introdução-->
+        <section>
+            <h2>Sobre esse quiz:</h2>
+            <p>Este quiz foi feito por <strong>Matheus Barcelos Mendes</strong> e terá questões sobre <em>conhecimento
+                    gerais e curiosidades sobre a banda de rock Nirvana</em></p>
+            <p>Aqui você encontrará diferente tipos de pergunta, incluindo múltipla escolha, texto e perguntas de data
+            </p>
+            <p>Sinta-se a vontade para deixar um feedback sobre o quiz e boa sorte!</p>
+        </section>
+        <!--Pergunta 1: múltipla escolha-->
+        <section>
+            <h2>Pergunta 1: Qual das 3 opções, não pertence ao álbum de estúdio Nevermind</h2>
+            <form>
+                <input type="radio" value="Breed" id="p1a" name="pergunta1">
+                <label for="p1a">Breed</label><br>
+
+                <input type="radio" value="Territorial Pissings" id="p1b" name="pergunta1">
+                <label for="p1b">Territorial Pissings</label><br>
+
+                <input type="radio" value="Something in the way" id="p1c" name="pergunta1">
+                <label for="p1c">Something in the Way</label><br>
+
+                <input type="radio" value="School" id="p1d" name="pergunta1">
+                <label for="p1d">School</label><br>
+
+                <input type="radio" value="Smells like teen spirit" id="p1e" name="pergunta1">
+                <label for="p1e">Smells Like Teen Spirit</label><br>
+            </form>
+        </section>
+        <!--Pergunta 2: texto-->
+        <section>
+            <h2>Pergunta 2: Qual foi o teatro onde o Nirvana fez um show em 1991, no Halloween?</h2>
+            <form>
+            <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta!">
+            </form>
+        </section>
+        <!--Pergunta 3: múltipla escolha-->
+        <section>
+            <h2>Pergunta 3: Quem era o baterista original do Nirvana antes de Dave Grohl se juntar à banda?</h2>
+            <form>
+                <input type="radio" value="Chad Channing" id="p3a" name="pergunta3">
+                <label for="p3a">Chad Channing</label><br>
+
+                <input type="radio" value="Krist Novoselic" id="p3b" name="pergunta3">
+                <label for="p3b">Krist Novoselic</label><br>
+
+                <input type="radio" value="Pat Smear" id="p3c" name="pergunta3">
+                <label for="p3c">Pat Smear</label><br>
+
+                <input type="radio" value="Jason Everman" id="p3d" name="pergunta3">
+                <label for="p3d">Jason Everman</label><br>
+
+                <input type="radio" value="Aaron Burckhard" id="p3e" name="pergunta3">
+                <label for="p3e">Aaron Burckhard</label><br>
+            </form>
+        </section>
+        <!--Pergunta 4: Data-->
+        <section>
+            <h2>Pergunta 4: Em que data o Nirvana lançou o albúm In Utero?</h2>
+            <form>
+                <input type="date" id="p4" name="pergunta4">
+            </form>
+        </section>
+             <!--Pergunta 5: Seleção Múltipla-->
+             <section>
+                <h2>Pergunta 5: Quais dessas músicas pertencem a banda Nirvana?</h2>
+                <input type="checkbox" id="p5a" name="pergunta5" value="Knights of Cydonia">
+                <label for="p5a">Knights Of Cydonia</label><br>
+
+                <input type="checkbox" id="p5b" name="pergunta5" value="Mr.Moustache">
+                <label for="p5b">Mr.Moustache</label><br>
+
+                <input type="checkbox" id="p5c" name="pergunta5" value="Come As You Are">
+                <label for="p5c">Come As You Are</label><br>
+
+                <input type="checkbox" id="p5d" name="pergunta5" value="Crazy Train">
+                <label for="p5d">Crazy Train</label><br>
+
+                <input type="checkbox" id="p5e" name="pergunta5" value="All Apologies">
+                <label for="p5e">All Apologies</label><br>
+             </section>
+             <!--Pergunta 6: Imagem-->
+             <section>
+                <h2>Pergunta 6: Quem é o integrante abaixo?</h2>
+                <img src="data:image/jpeg;base64,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" alt=""><br>
+                <input type="text" id="p6" name="pergunta6" placeholder="Digite sua resposta">
+             </section>
+             <!--Tabela de Pontuação-->
+             <section>
+                <h2>Tabela de Pontuação:</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Pontuação</th>
+                            <th>Avaliação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>0-2</td>
+                            <td>Muito poser pqp KAKAKAKAK</td>
+                        </tr>
+                        <tr>
+                            <td>3-4</td>
+                            <td>dava pra ir melhor mano</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>seu conhecimento está satisfatório</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>AE SIM EIN PERFECT(coisa que miguel não faz)</td>
+                        </tr>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">Obrigado por jogar o meu quiz e até a próxima!</td>
+                            </tr>
+                        </tfoot>
+                    </tbody>
+                </table>
+             </section>
+             <!--Feedback-->
+             <section>
+                <h2>Deixe seu feedback😄</h2>
+                <form>
+                    <fieldset>
+                        <legend>Informações de contato</legend>
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" placeholder="Digite seu nome"><br>
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Digite seu email"><br>
+
+                    <label for="comentario">Comentários</label><br>
+                    <textarea name="comentario" id="comentario" rows="4" cols="50" placeholder="Digite seu feedback"></textarea><br>
+                    <button type="submit">Enviar feedback</button>
+                    </fieldset>
+                </form>
+             </section>
+    </main>
+    <footer>
+        <p>Quiz do Nirvana. Feito por Matheus Barcelos</p>
+        <p>Para conhecer outros projetos meus acesse <a href="https://github.com/Matrukis" target="_blank">aqui</a></p>
     </footer>
-  </body>
+</body>
 </html>
