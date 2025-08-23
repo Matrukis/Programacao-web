@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Boas vindas!</h1>
+    <p>Vamos personalizar sua experiencia usando java script</p>
+    <div class="saudacao" id="mensagemsaudacao">Olá, Visitante</div>
+    </div>
+    <section>
+    <button onclick="mudarNome()">Entre na nossa família</button>
+    </section>
+    <script>
+        function mudarNome(){
+            let nome = prompt("Escreve seu nome!")
+            document.getElementById("mensagemsaudacao").textContent = "Olá, " + nome;
+        }
+    </script>   
+</body>
+</html>

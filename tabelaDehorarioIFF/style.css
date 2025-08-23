@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: #3B82F6;
+    background-color: #407827;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -45,26 +45,34 @@ tr, th {
 }
 footer {
     text-align: center;
-    background-color: #3B82F6;
+    background-color: #407827;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .dia {
-    background-color: #3a506b;
+    background-color: #96CED1;
 }
 
 .horario {
-    background-color: #edd382;
+    background-color: #C5EDEA;
 }
 
 .almoco, .lanche {
-    background-color: #ff8929;
+    background-color: #B2C9E0;
 }
 
 .tia, .livre {
-    background-color: #C6B38E;
+    background-color: #FFFFFF;
 }
 
 .aula {
-    background-color: #847979;
+    background-color: #F0FADD;
+}
+
+nav{
+    background-color: #C6DE9C;
+}
+
+.auladentro {
+    background-color: #D5DEC4;
 }
